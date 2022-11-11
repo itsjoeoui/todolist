@@ -1,4 +1,4 @@
 .parcel-cache/*
 .yarn/install-state.gz
-.yarn/unplugged
+.yarn/unplugged/*
 dist/*
