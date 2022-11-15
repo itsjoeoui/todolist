@@ -20,7 +20,7 @@ import { AppController } from './app.controller';
       username: 'postgres',
       password: 'example',
       database: 'postgres',
-      entities: [],
+      autoLoadEntities: true,
       synchronize: true,
     }),
     UsersModule,
