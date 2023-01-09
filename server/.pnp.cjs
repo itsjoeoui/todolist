@@ -58,7 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastify", "npm:4.9.2"],\
             ["graphql", "npm:16.6.0"],\
             ["jest", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:28.1.3"],\
-            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.3.0"],\
+            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.5.0"],\
             ["passport", "npm:0.6.0"],\
             ["passport-jwt", "npm:4.0.0"],\
             ["passport-local", "npm:1.0.0"],\
@@ -1654,10 +1654,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3c3900e84765d85b49b2a44491cfce4bec5d79c136d61b254a28e69f97cd52d8d62b61abe6c74cb26a66554cb2f99a22892a8c31414979a72632dafae1c8cd45#npm:3.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/@graphql-typed-document-node-core-virtual-cc4489f77c/0/cache/@graphql-typed-document-node-core-npm-3.1.1-b1b114073d-87ff4cee30.zip/node_modules/@graphql-typed-document-node/core/",\
+        ["virtual:1e7e9ef2df87942c3cc6dff784b4b639698d933a6825656fbc160a80e26bc0114694a7502bf30e7d49f3be66cc721bc82cbefe31c8a3d2a83f02ed37664274bc#npm:3.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@graphql-typed-document-node-core-virtual-4434b8beb8/0/cache/@graphql-typed-document-node-core-npm-3.1.1-b1b114073d-87ff4cee30.zip/node_modules/@graphql-typed-document-node/core/",\
           "packageDependencies": [\
-            ["@graphql-typed-document-node/core", "virtual:3c3900e84765d85b49b2a44491cfce4bec5d79c136d61b254a28e69f97cd52d8d62b61abe6c74cb26a66554cb2f99a22892a8c31414979a72632dafae1c8cd45#npm:3.1.1"],\
+            ["@graphql-typed-document-node/core", "virtual:1e7e9ef2df87942c3cc6dff784b4b639698d933a6825656fbc160a80e26bc0114694a7502bf30e7d49f3be66cc721bc82cbefe31c8a3d2a83f02ed37664274bc#npm:3.1.1"],\
             ["@types/graphql", null],\
             ["graphql", "npm:16.6.0"]\
           ],\
@@ -2070,6 +2070,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@mercuriusjs/subscription-client", [\
+        ["npm:0.1.0", {\
+          "packageLocation": "./.yarn/cache/@mercuriusjs-subscription-client-npm-0.1.0-684bab3a75-44392e1395.zip/node_modules/@mercuriusjs/subscription-client/",\
+          "packageDependencies": [\
+            ["@mercuriusjs/subscription-client", "npm:0.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@mercuriusjs-subscription-client-virtual-f20eb451da/0/cache/@mercuriusjs-subscription-client-npm-0.1.0-684bab3a75-44392e1395.zip/node_modules/@mercuriusjs/subscription-client/",\
+          "packageDependencies": [\
+            ["@mercuriusjs/subscription-client", "virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.1.0"],\
+            ["@fastify/error", "npm:3.0.0"],\
+            ["@types/graphql", null],\
+            ["graphql", "npm:16.6.0"],\
+            ["secure-json-parse", "npm:2.5.0"],\
+            ["ws", "virtual:7c14dac7c34d9edcb69c4b5c1bcb2d5adeaa1ea26905f7429b718ea09c012c938f62e30e04c11022b8c2519c55723530d4d5f2842150e9c80887cbf5a2e32f6f#npm:8.11.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/graphql",\
+            "graphql"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@nestjs/apollo", [\
         ["npm:10.1.6", {\
           "packageLocation": "./.yarn/cache/@nestjs-apollo-npm-10.1.6-5c5cf4da0d-a14521e211.zip/node_modules/@nestjs/apollo/",\
@@ -2379,7 +2404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/nestjs__graphql", null],\
             ["fastify", "npm:4.9.2"],\
             ["graphql", "npm:16.6.0"],\
-            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.3.0"],\
+            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.5.0"],\
             ["tslib", "npm:2.4.1"]\
           ],\
           "packagePeers": [\
@@ -5752,15 +5777,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["events.on", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "./.yarn/cache/events.on-npm-1.0.1-10b061cccb-bf9d1c1c30.zip/node_modules/events.on/",\
-          "packageDependencies": [\
-            ["events.on", "npm:1.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["execa", [\
         ["npm:4.1.0", {\
           "packageLocation": "./.yarn/cache/execa-npm-4.1.0-cc675b4189-e30d298934.zip/node_modules/execa/",\
@@ -6517,11 +6533,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b944dce4011e395ebedad896f64e16b061b81a282707145b2d0ff1d7eb31abc9b8cb7969c53c73251e75b7b8f9608446f815e42910bc40472428ade145986c69#npm:0.7.4", {\
-          "packageLocation": "./.yarn/__virtual__/graphql-jit-virtual-3c3900e847/0/cache/graphql-jit-npm-0.7.4-673cb8a058-e772d6c072.zip/node_modules/graphql-jit/",\
+        ["virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.7.4", {\
+          "packageLocation": "./.yarn/__virtual__/graphql-jit-virtual-1e7e9ef2df/0/cache/graphql-jit-npm-0.7.4-673cb8a058-e772d6c072.zip/node_modules/graphql-jit/",\
           "packageDependencies": [\
-            ["graphql-jit", "virtual:b944dce4011e395ebedad896f64e16b061b81a282707145b2d0ff1d7eb31abc9b8cb7969c53c73251e75b7b8f9608446f815e42910bc40472428ade145986c69#npm:0.7.4"],\
-            ["@graphql-typed-document-node/core", "virtual:3c3900e84765d85b49b2a44491cfce4bec5d79c136d61b254a28e69f97cd52d8d62b61abe6c74cb26a66554cb2f99a22892a8c31414979a72632dafae1c8cd45#npm:3.1.1"],\
+            ["graphql-jit", "virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.7.4"],\
+            ["@graphql-typed-document-node/core", "virtual:1e7e9ef2df87942c3cc6dff784b4b639698d933a6825656fbc160a80e26bc0114694a7502bf30e7d49f3be66cc721bc82cbefe31c8a3d2a83f02ed37664274bc#npm:3.1.1"],\
             ["@types/graphql", null],\
             ["fast-json-stringify", "npm:1.21.0"],\
             ["generate-function", "npm:2.3.1"],\
@@ -8164,25 +8180,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mercurius", [\
-        ["npm:11.3.0", {\
-          "packageLocation": "./.yarn/cache/mercurius-npm-11.3.0-e42ad77973-743391c35e.zip/node_modules/mercurius/",\
+        ["npm:11.5.0", {\
+          "packageLocation": "./.yarn/cache/mercurius-npm-11.5.0-62c388c1a3-061ff75d70.zip/node_modules/mercurius/",\
           "packageDependencies": [\
-            ["mercurius", "npm:11.3.0"]\
+            ["mercurius", "npm:11.5.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/mercurius-virtual-b944dce401/0/cache/mercurius-npm-11.3.0-e42ad77973-743391c35e.zip/node_modules/mercurius/",\
+        ["virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/mercurius-virtual-7ee3618db7/0/cache/mercurius-npm-11.5.0-62c388c1a3-061ff75d70.zip/node_modules/mercurius/",\
           "packageDependencies": [\
-            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.3.0"],\
+            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.5.0"],\
             ["@fastify/error", "npm:3.0.0"],\
             ["@fastify/static", "npm:6.5.0"],\
             ["@fastify/websocket", "npm:7.1.1"],\
+            ["@mercuriusjs/subscription-client", "virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.1.0"],\
             ["@types/graphql", null],\
-            ["events.on", "npm:1.0.1"],\
             ["fastify-plugin", "npm:4.3.0"],\
             ["graphql", "npm:16.6.0"],\
-            ["graphql-jit", "virtual:b944dce4011e395ebedad896f64e16b061b81a282707145b2d0ff1d7eb31abc9b8cb7969c53c73251e75b7b8f9608446f815e42910bc40472428ade145986c69#npm:0.7.4"],\
+            ["graphql-jit", "virtual:7ee3618db7d7cd8cbade1b5ba9d887727444b13ef37d0269fb258cded1a8c6fb738ebb06969c5232c3e5fffaf0aa06100695c2524c76422ead66d15a25d5aa82#npm:0.7.4"],\
             ["mqemitter", "npm:5.0.0"],\
             ["p-map", "npm:4.0.0"],\
             ["readable-stream", "npm:4.2.0"],\
@@ -9898,7 +9914,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastify", "npm:4.9.2"],\
             ["graphql", "npm:16.6.0"],\
             ["jest", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:28.1.3"],\
-            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.3.0"],\
+            ["mercurius", "virtual:48fd9d653646a991d0eda5ffe92778b72de446c151643ca5c3964e62f24bed64d28e19b09ae1edf82cd4ab484e9e16d2c4b4953045a3524fb9431546d36f4563#npm:11.5.0"],\
             ["passport", "npm:0.6.0"],\
             ["passport-jwt", "npm:4.0.0"],\
             ["passport-local", "npm:1.0.0"],\
