@@ -223,7 +223,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mischnic/json-sourcemap", "npm:0.1.0"],\
             ["@lezer/common", "npm:0.15.12"],\
             ["@lezer/lr", "npm:0.15.8"],\
-            ["json5", "npm:2.2.1"]\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -490,7 +490,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clone", "npm:2.1.2"],\
             ["dotenv", "npm:7.0.0"],\
             ["dotenv-expand", "npm:5.1.0"],\
-            ["json5", "npm:2.2.1"],\
+            ["json5", "npm:2.2.3"],\
             ["msgpackr", "npm:1.7.2"],\
             ["nullthrows", "npm:1.1.1"],\
             ["semver", "npm:5.7.1"]\
@@ -942,7 +942,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@parcel/source-map", "npm:2.1.1"],\
             ["@parcel/utils", "npm:2.8.0"],\
             ["browserslist", "npm:4.21.4"],\
-            ["json5", "npm:2.2.1"],\
+            ["json5", "npm:2.2.3"],\
             ["nullthrows", "npm:1.1.1"],\
             ["semver", "npm:5.7.1"]\
           ],\
@@ -1047,7 +1047,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@parcel/transformer-json", "npm:2.8.0"],\
             ["@parcel/plugin", "npm:2.8.0"],\
-            ["json5", "npm:2.2.1"]\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2596,10 +2596,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["json5", [\
-        ["npm:2.2.1", {\
-          "packageLocation": "./.yarn/cache/json5-npm-2.2.1-44675c859c-74b8a23b10.zip/node_modules/json5/",\
+        ["npm:2.2.3", {\
+          "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-2a7436a933.zip/node_modules/json5/",\
           "packageDependencies": [\
-            ["json5", "npm:2.2.1"]\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
