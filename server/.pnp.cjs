@@ -8190,7 +8190,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["secure-json-parse", "npm:2.5.0"],\
             ["single-user-cache", "npm:0.6.0"],\
             ["tiny-lru", "npm:8.0.2"],\
-            ["undici", "npm:5.12.0"],\
+            ["undici", "npm:5.19.1"],\
             ["ws", "virtual:7c14dac7c34d9edcb69c4b5c1bcb2d5adeaa1ea26905f7429b718ea09c012c938f62e30e04c11022b8c2519c55723530d4d5f2842150e9c80887cbf5a2e32f6f#npm:8.11.0"]\
           ],\
           "packagePeers": [\
@@ -10983,10 +10983,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["undici", [\
-        ["npm:5.12.0", {\
-          "packageLocation": "./.yarn/cache/undici-npm-5.12.0-75a51aa3f4-fbc2277049.zip/node_modules/undici/",\
+        ["npm:5.19.1", {\
+          "packageLocation": "./.yarn/cache/undici-npm-5.19.1-aad6efa6ea-57ee94ee74.zip/node_modules/undici/",\
           "packageDependencies": [\
-            ["undici", "npm:5.12.0"],\
+            ["undici", "npm:5.19.1"],\
             ["busboy", "npm:1.6.0"]\
           ],\
           "linkType": "HARD"\
